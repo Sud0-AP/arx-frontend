@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+
+
+
+.NavigationBar{
+    margin: 45px 5%;
+    display: grid;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    grid-template-columns: 1fr 1fr 1fr 4fr 1fr 1fr;
+    font-family: 'Jura', sans-serif;
+    color:white;
+    overflow: visible ;
+    width: 100%;
+    z-index: 1;
+}
+
+.NavigationBar-Logo{
+    font-size: 2.5rem;
+}
+
+
+
+
+
+
+
+.NavigationBar-YourLisings , .NavigationBar-ViewLisings{
+    text-align: center;
+    align-self: center;
+    font-size: 1.2rem;
+}
+
+.NavigationBar-Menu{
+    margin-left: 100%;
+    width: 50px;
+    color:#D8768A ;
+   align-self: center;
+   display: none;
+}
+
+
+
+.hr1,.hr2{
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #D8768A;
+  margin: 0.8rem 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.w3m-overlay {
+    position: absolute;
+    z-index: 100000000000 !important;
+    margin-left: 80% !important;
+    margin-top: 10% !important;
+    overflow: visible !important;
+    float: right !important;
+}
+
+.Governance-button{
+    border-radius: 10px;
+    border: 0px transparent;
+    cursor: pointer;
+    background: none; 
+    background-color: #D8768A ;
+    color:black;
+    font-size: 1.3rem;
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+    padding: 15px;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    margin-bottom: -20%;
+    z-index: 10;
+}
