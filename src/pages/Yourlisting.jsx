@@ -4,8 +4,8 @@ import house from '../assets/house.png'
 import React, { useState } from 'react';
 import Button from '../components/Button.jsx'
 import { NavLink } from "react-router-dom";
-import {useContractRead } from 'wagmi';
-import {UseContractConfig } from 'wagmi/dist/declarations/src/hooks/UseContractConfig';
+//import {useContractRead } from 'wagmi';
+//import {UseContractConfig } from 'wagmi/dist/declarations/src/hooks/UseContractConfig';
 
 export default function Listings(){
       const [count, setCount] = useState(0);
@@ -15,9 +15,9 @@ export default function Listings(){
 
   
 
-const {data: sharePrice } = useContractRead({
+// const {data: sharePrice } = useContractRead({
     
-});
+// });
 
 
 
